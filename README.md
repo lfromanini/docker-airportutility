@@ -28,14 +28,14 @@ It will be running on top of [Wine](https://www.winehq.org/) in a lightweight do
 1. Pull it from [docker hub](https://hub.docker.com/r/lfromanini/airportutility) and run it:
 
 ```bash
-    $ docker run -d --name airportutility -p 8080:8080 lfromanini/airportutility
+docker run -d --name airportutility -p 8080:8080 lfromanini/airportutility
 ```
 
 2. Navigate to [http://localhost:8080/vnc_lite.html](http://localhost:8080/vnc_lite.html) or replace `localhost` with your docker server IP address and follow on screen instructions to install the application inside your container (next, next, finish).
 After installation is done, Airport Utility will be automatically loaded. In case of crashs, it will be automatically reloaded.
 
 ```bash
-    $ xdg-open http://localhost:8080/vnc_lite.html
+xdg-open http://localhost:8080/vnc_lite.html
 ```
 
 ## Building from sources
@@ -43,8 +43,8 @@ After installation is done, Airport Utility will be automatically loaded. In cas
 Build it from sources:
 
 ```bash
-    $ git clone https://github.com/lfromanini/docker-airportutility.git
-    $ docker build -t lfromanini/airportutility .
+git clone https://github.com/lfromanini/docker-airportutility.git
+docker build -t lfromanini/airportutility .
 ```
 
 #### Requirements
