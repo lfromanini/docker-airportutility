@@ -35,6 +35,7 @@ docker run -d --name airportutility -p 8080:8080 lfromanini/airportutility
 After installation is done, Airport Utility will be automatically loaded. In case of crashs, it will be automatically reloaded.
 
 ```bash
+# open in browser
 xdg-open http://localhost:8080/vnc_lite.html
 ```
 
