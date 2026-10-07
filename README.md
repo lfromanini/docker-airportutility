@@ -1,5 +1,3 @@
-<img align="right" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg">
-
 # docker-airportutility
 
 A very strange way to give a web interface to Apple Airport Utility, but also an easy way to configure your device when using Linux.
